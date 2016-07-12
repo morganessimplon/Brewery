@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'voltaireregular';
+    src: url('polices/voltaire/voltaire-regular-webfont.woff2') format('woff2'),
+         url('polices/voltaire/voltaire-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'courgetteregular';
+    src: url('polices/courgette/courgette-regular-webfont.woff2') format('woff2'),
+         url('polices/courgette/courgette-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* color : #2E8B57 (vert) */
+
+
+/* ------------ Fin du Head --------------- */
+
+/* ---------------- Body ------------------ */
+
+#page {
+    background-image: url(images-brasserie/bg.jpg);
+    max-width: 1170px;
+    width: 100%;
+}
+
+
+
+/* --------------- Header ----------------- */
+#header {
+    width: 100%;
+}
+
+#header img {
+    margin-top: 10px;
+}
+
+#menu {
+    text-align: right;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    color: white;
+    font-family: 'voltaireregular';
+    font-size: 20px; 
+}
+
+#menu ul li a:hover {
+    
+    color: #2E8B57;
+    text-decoration: none;
+}
+
+
+
+/* ------------- Slider ------------------- */
+
+#slider img {
+    width: 100%;
+}
+
+
+
+/* -------------- Section ----------------- */
+
+#trio {
+    width: 98%;
+    background-color: bisque;
+    margin-left: 10px;
+}
+
+#trio h3 {
+    font-family: "voltaireregular";
+}
+
+#trio a {
+    color: black;
+}
+
+#trio a:hover {
+    color: #2E8B57;
+    text-decoration: none;
+}
+
+#blonde {
+    margin-top: 20px;
+}
+
+#blonde img {
+    margin-left: 100px;
+}
+
+#blonde h3 {
+    text-align: center;
+}
+
+#blonde p {
+    text-align: center;
+}
+
+#rousse {
+    margin-top: 20px;
+}
+
+#rousse img {
+    margin-left: 100px;
+}
+
+
+#rousse h3 {
+    text-align: center;
+}
+
+#rousse p {
+    text-align: center;
+}
+
+#brune {
+   margin-top: 20px;
+}
+
+#brune img {
+    margin-left: 100px;
+}
+
+#brune h3 {
+    text-align: center;
+}
+
+#brune p {
+    text-align: center;
+}
+
+
+
+/* --------------- Bienvenue ----------- */
+
+#bandeau {
+    width: 98%;
+    margin-left: 10px;
+    background-color: bisque;
+}
+
+.bienvenue {
+    border-left: 4px solid #2E8B57;
+    background-color: white;
+    margin-left: 7px;
+}
+
+.bienvenue h2 {
+    font-family: 'courgetteregular';
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.bienvenue p {
+    margin-left: 20px;
+}
+
+.bienvenue .bouton {
+    background-color: #2E8B57;
+    color: white;
+    float: right;
+    margin-top: -50px;
+    margin-right: 10px;
+}
+
+
+
+/* ------------------- Article --------- */
+
+#article {
+    background-color: bisque;
+    width: 98%;
+    margin-left: 10px;
+}
+
+#article h3 {
+    font-family: "voltaireregular";
+}
+
+#article p {
+    color: black;
+    text-align: justify;
+}
+
+#article p.separation {
+    color: #2E8B57;
+}
+
+#article img {
+    max-width: 100%;
+    width: 100%;
+    margin-left: -15px;
+}
+
+#article a {
+    text-decoration: none;
+    color: black;
+}
+
+#article a:hover {
+    color: #2E8B57;
+}
+
+.signature {
+    float: right;
+}
+
+
+
+/* ------------------ Aside ------------- */
+
+#lastNews {
+    width: 98%;
+    margin-left: 10px;
+    background-color: bisque;
+    padding-bottom: 50px;
+}
+
+
+#lastNews h3 {
+    font-family: "voltaireregular";
+}
+
+#lastNews p {
+    text-align: justify;
+}
+
+#imagesFin img {
+    max-width: 100%;
+    margin-top: 25px;
+    width: 100%;
+    height: 170px;
+}
+
+
+
+/* -------------------- Footer --------- */
+
+#footer {
+    width: 98%;
+    margin-left: 10px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+#footer .navbar-form {
+    margin-top: 80px;
+}
+
+#widget {
+    margin-top: 20px;
+}
+
+#footer ul li {
+    list-style-type: none;
+    border-bottom: 1px solid white;
+}
+
+
+#footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer ul li a:hover {
+    color: #2E8B57;
+}
+
+
+#articleRecent ul img {
+    width: 38px;
+    float: left;
+    margin-right: 5px;
+}
+
+
+
+/* -------------------- Bandeau Fin ------ */
+
+
+#bandeauFin {
+    background-color: bisque;
+    width: 98%;
+    margin-left: 10px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+
+
+
+
